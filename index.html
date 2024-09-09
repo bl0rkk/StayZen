@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stayzen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <section id="header">
+        <div class="nav-bar">
+            <img src="./images/logo BIG.png" alt="stayzen logo" width="120px" height="auto">
+            <nav id="nav-contents" class="side-bar">
+                <a href="#hero">Home</a>
+                <a href="#featured-hotel">Explore</a>
+                <a href="#services">Services</a>
+                <a href="#footer-container">About</a>
+            </nav>  
+            <div class="nav-btn">
+                <button id="login">Login</button>
+                <button id="sign-up">Sign Up</button>
+            </div>
+            <i class="hamburg fas fa-bars" id="hamburger"></i>
+
+        </div>
+    </section>
+    
+    <section id="hero">
+        <img src="./images/hero-img.png" alt="hero image" class="hero-image" width="100%">
+        <div class="hero-container">
+            <h1 id="hero-title">Discover Your Perfect Getaway</h1>
+            <p id="hero-p">Book Your Dream Hotel Today!</p> 
+        </div>
+        <div class="hotel-booking">
+            <form action="" class="form-container">
+                <div class="form-group">
+                    <label for="location"><i class="i-icon fas fa-map-marker-alt"></i>Where to?</label>
+                    <input type="text" placeholder="Kochi, Kerala">
+                </div>
+                <div></div>
+                <div class="form-group">
+                    <label for="room"><i class="i-icon fas fa-bed"></i>Room Type?</label>
+                    <input type="text" placeholder="Standard">
+                </div>
+                <div></div>
+                <div class="form-group">
+                    <label for="people"><i class="i-icon fas fa-users"></i>People</label>
+                    <input type="text" placeholder="2 Adult, 1 Child">
+                </div>
+                <div></div>
+                <div class="form-group">
+                    <label for="check-in"><i class="i-icon fas fa-calendar-alt"></i>Check in</label>
+                    <input type="text" placeholder="Mar 13">
+                </div>
+                <div></div>
+                <div class="form-group">
+                    <label for="check-out"><i class="i-icon fas fa-calendar-alt"></i>Check out</label>
+                    <input type="text" placeholder="Mar 15">
+                </div>
+                <button id="search-btn">Search</button>
+            </form>
+        </div>
+    </section>
+    <div class="scroller">
+        <p>Use code “SUPER25” on check out for additional 10% offer · Use code “FIRST01” on check out for additional 10% offer for the first time booking · Additional 5% off on ABC Bank credit card</p>
+    </div>
+
+    <section id="featured-hotel">
+        <div class="container justify-content-center">
+            <h2>Top Rated Hotels</h2>
+            <p>"Presenting StayZen's Top-Rated Affiliated Hotels Known for Outstanding Hospitality and Exceptional Services"</p>
+            <div class="row justify-content-center m-3">
+                
+                <div class="hotel-cards col-lg-3 col-sm-12">
+                    <img src="./images/Hotel img 1.png" alt="image">
+                    <div class="hotel-det-container">
+                        <div class="hotel-det-left">
+                            <h3 class="hotel-name">Regal Respite</h3>
+                            <i class="fas fa-map-marker-alt loc"></i>
+                            <span class="hotel-location">Mumbai, Maharashtra</span><br>    
+                            <i class="fas fa-star rate"></i>
+                            <span class="hotel-rating">4.7(293)</span>
+                        </div>
+                        <div class="hotel-det-right">
+                            <h3 class="hotel-price">₹7,200</h3>
+                            <p>Per night</p>
+                        </div>
+                    </div>
+                    <div class="hotel-amneties">
+                        <div class="amenity"><i class="tag-icon fas fa-snowflake"></i>AC/Non AC</div>
+                        <div class="amenity"><i class="tag-icon fas fa-swimming-pool"></i>Pool</div>
+                        <div class="amenity"><i class="tag-icon fas fa-bath"></i>Bath</div>
+                        <div class="amenity"><i class="tag-icon fas fa-wifi"></i>Free WiFi</div>
+                        <div class="amenity"><i class="tag-icon fas fa-water"></i>Sea View</div>
+                        <div class="more-tag">More</div>
+                    </div>
+                    <div class="hotel-buttons">
+                        <button class="view-details-btn">View Details</button>
+                        <button class="book-now-btn">Book Now</button>
+                    </div>
+                </div>
+
+                <div class="hotel-cards col-lg-3 col-sm-8">
+                    <img src="./images/Hotel img 2.png" alt="image">
+                    <div class="hotel-det-container">
+                        <div class="hotel-det-left">
+                            <h3 class="hotel-name">Palatial Oasis</h3>
+                            <i class="fas fa-map-marker-alt loc"></i>
+                            <span class="hotel-location">Kochi, Kerala</span><br>    
+                            <i class="fas fa-star rate"></i>
+                            <span class="hotel-rating">4.6(2,993)</span>
+                        </div>
+                        <div class="hotel-det-right">
+                            <h3 class="hotel-price">₹9,200</h3>
+                            <p>Per night</p>
+                        </div>
+                    </div>
+                    <div class="hotel-amneties">
+                        <div class="amenity"><i class="tag-icon fas fa-snowflake"></i>AC/Non AC</div>
+                        <div class="amenity"><i class="tag-icon fas fa-swimming-pool"></i>Pool</div>
+                        <div class="amenity"><i class="tag-icon fas fa-bath"></i>Bath</div>
+                        <div class="amenity"><i class="tag-icon fas fa-wifi"></i>Free WiFi</div>
+                        <div class="amenity"><i class="tag-icon fas fa-water"></i>Sea View</div>
+                        <div class="more-tag">More</div>
+                    </div>
+                    <div class="hotel-buttons">
+                        <button class="view-details-btn">View Details</button>
+                        <button class="book-now-btn">Book Now</button>
+                    </div>
+                </div>
+
+                <div class="hotel-cards col-lg-3 col-sm-8">
+                    <img src="./images/Hotel img 3.png" alt="image">
+                    <div class="hotel-det-container">
+                        <div class="hotel-det-left">
+                            <h3 class="hotel-name">Elysian Retreat</h3>
+                            <i class="fas fa-map-marker-alt loc"></i>
+                            <span class="hotel-location">Calicut, Kerala</span><br>    
+                            <i class="fas fa-star rate"></i>
+                            <span class="hotel-rating">4.8(193)</span>
+                        </div>
+                        <div class="hotel-det-right">
+                            <h3 class="hotel-price">₹8,200</h3>
+                            <p>Per night</p>
+                        </div>
+                    </div>
+                    <div class="hotel-amneties">
+                        <div class="amenity"><i class="tag-icon fas fa-snowflake"></i>AC/Non AC</div>
+                        <div class="amenity"><i class="tag-icon fas fa-swimming-pool"></i>Pool</div>
+                        <div class="amenity"><i class="tag-icon fas fa-bath"></i>Bath</div>
+                        <div class="amenity"><i class="tag-icon fas fa-wifi"></i>Free WiFi</div>
+                        <div class="amenity"><i class="tag-icon fas fa-water"></i>Sea View</div>
+                        <div class="more-tag">More</div>
+                    </div>
+                    <div class="hotel-buttons">
+                        <button class="view-details-btn">View Details</button>
+                        <button class="book-now-btn">Book Now</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    
+    <section id="attractions">
+        <div class="container"> 
+            <h2>Plan Your Venture in Kochi</h2>
+            <p>Explore the vibrant culture and delicious cuisine of Kochi by planning your adventure today! With its blend of tradition and modernity, there's something for every traveler to discover and enjoy.</p>
+            <div class="row justify-content-center m-3">
+                
+                <div class="attraction-card col-lg-4 col-sm-10" style="padding-left: 0px; padding-right: 0px;">
+                    <img src="./images/attraction 1.png" alt="">
+                    <div class="attraction-content">
+                        <h4>Full Day Backwater Village Punting Boat Cruise</h4>
+                        <span>Cochin · 6 hours ·34Km </span>
+                    </div>
+                    <div class="attraction-bottom">
+                        <div class="dummy-container">
+                            <h4>₹2,200</h4>
+                            <span>Per Adult</span>
+                        </div>
+                        <button class="attraction-det-btn">View Details</button>
+                    </div>
+                </div>
+
+                <div class="attraction-card col-lg-4 col-sm-10" style="padding-left: 0px; padding-right: 0px;">
+                    <img src="./images/attraction 2.png" alt="">
+                    <div class="attraction-content">
+                        <h4>Athirappilly & Vazhachal Waterfalls Private Day Tour from Kochi</h4>
+                        <span>Cochin · 6 hours ·34Km </span>
+                    </div>
+                    <div class="attraction-bottom">
+                        <div class="dummy-container">
+                            <h4>₹3,459</h4>
+                            <span>Per Adult</span>
+                        </div>
+                        <button class="attraction-det-btn">View Details</button>
+                    </div>
+                </div>
+
+                <div class="attraction-card col-lg-4 col-sm-10" style="padding-left: 0px; padding-right: 0px;">
+                    <img src="./images/attraction 3.png" alt="">
+                    <div class="attraction-content">
+                        <h4>Explore Munnar Day Trip From Cochin</h4>
+                        <span>Cochin · 6 hours ·34Km </span>
+                    </div>
+                    <div class="attraction-bottom">
+                        <div class="dummy-container">
+                            <h4>₹4,299</h4>
+                            <span>Per Adult</span>
+                        </div>
+                        <button class="attraction-det-btn">View Details</button>
+                    </div>
+                </div>
+
+                <div class="attraction-card col-lg-4 col-sm-10" style="padding-left: 0px; padding-right: 0px;">
+                    <img src="./images/attraction 4.png" alt="">
+                    <div class="attraction-content">
+                        <h4>Catch The Sunset!</h4>
+                        <span>Cochin · 6 hours ·34Km </span>
+                    </div>
+                    <div class="attraction-bottom">
+                        <div class="dummy-container">
+                            <h4>₹1,299</h4>
+                            <span>Per Adult</span>
+                        </div>
+                        <button class="attraction-det-btn">View Details</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    
+    <section id="virtual-tour">
+        <div class="virtual-flex-container m-3">
+            <h2>Let's Do a Virtual Tour</h2>
+            <p>Embark on an immersive Virtual Tour experience and explore our offerings from the comfort of your home!</p>
+            <div class="inline-container">
+                <div class="virtual-image-container">
+                    <div class="virtual-image">
+                        <img class="img-car" src="./images/virtual tour 1.png" alt="">
+                        <h5>Japan</h5>
+                    </div>
+                </div>
+                <div class="virtual-image-container">
+                    <div class="virtual-image">
+                        <img class="img-car" src="./images/virtual tour 2.png" alt="">
+                        <h5>Switzerland</h5>
+                    </div>
+                </div>
+                <div class="virtual-image-container">
+                    <div class="virtual-image">
+                        <img class="img-car" src="./images/virtual tour 3.png" alt="">
+                        <h5>Norway</h5>
+                    </div>
+                </div>
+                <div class="virtual-image-container">
+                    <div class="virtual-image">
+                        <img class="img-car" src="./images/virtual tour 4.png" alt="">
+                        <h5>Germany</h5>
+                    </div>
+                </div>
+                <div class="virtual-image-container">
+                    <div class="virtual-image">
+                        <img class="img-car" src="./images/virtual tour 5.png" alt="">
+                        <h5>Bali</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="services">
+        <div class="service-container">
+            <h2>Our Services</h2>
+            <p>Explore the vibrant culture and delicious cuisine of Kochi by planning your adventure today! With its blend of tradition and modernity, there's something for every traveler to discover and enjoy.</p>
+            <div class="row justify-content-center m-3">
+                <div class="service-list col-lg-3 col-sm-8">
+                    <i class="fas fa-headset"></i>
+                    <span>24/7 Customer Support</span>
+                </div>
+                <div class="service-list col-lg-3 col-sm-8">
+                    <i class="fas fa-user-tie"></i>
+                    <span>Personalized Concierge Services</span>
+                </div>
+                <div class="service-list col-lg-3 col-sm-8">
+                    <i class="fas fa-gift"></i>
+                    <span>Loyalty Rewards Program</span>
+                </div>
+                <div class="service-list col-lg-3 col-sm-8">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>Enhanced Safety Measures</span>
+                </div>
+                <div class="service-list col-lg-3 col-sm-8">
+                    <i class="fas fa-tags"></i>
+                    <span>Exclusive Discounts and Packages</span>
+                </div>
+                <div class="service-list col-lg-3 col-sm-8">
+                    <i class="fas fa-laptop-house"></i>
+                    <span>Virtual Tours and Reviews</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="gallery">
+        <div class="gallary-container">
+            <h2>Gallery</h2>
+            <p>Here, we are delighted to showcase a curated collection of mesmerizing photographs, expertly captured by our esteemed clients, portraying their memorable experiences and thrilling adventures.</p>
+            <div class="gal-img row justify-content-center m-3">
+                <div class="g-img col-lg-3 col-sm-4" style="padding: 0;">
+                    <img src="/images/ga1.png" alt="">
+                    <img src="/images/ga2.png" alt="">
+                </div>
+                <div class="g-img col-lg-3 col-sm-4" style="padding: 0;">
+                    <img src="/images/ga3.png" alt="">
+                    <img src="/images/ga4.png" alt="">
+                </div>
+                <div class="g-img col-lg-3 col-sm-4" style="padding: 0;">
+                    <img src="/images/ga5.png" alt="">
+                    <img src="/images/ga6.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="newsletter-container">
+        <h2>Stay In Touch With Us</h2>
+        <p>Subscribe to our newsletter to stay updated about deals and offers </p>
+        <div class="newsletter-content">
+            <input id="newsletter-ip" type="text" placeholder="jon@example.com">
+            <button id="subscribe-btn">Subscribe</button>
+        </div>
+    </div>
+    
+    <footer id="footer-container">
+        <div class="social-container">
+            <a href="https://www.instagram.com/sanand.f4/" target="_blank"><i class="fab fa-instagram"></i></a>
+            
+        </div>
+        <div class="social-container">
+            <a href="https://in.pinterest.com/dirtydecember/" target="_blank"><i class="fab fa-pinterest"></i></a>
+            
+        </div>
+        <div class="social-container">
+            <a href="https://www.linkedin.com/in/sanand-chandran-b4b4b7194/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            
+        </div>
+        <div class="social-container">
+            <a href="https://www.behance.net/sanandchandran" target="_blank"><i class="fab fa-behance"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
